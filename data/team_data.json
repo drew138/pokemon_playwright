@@ -1,0 +1,121 @@
+{
+  "format": "Ubers",
+  "gen": "Gen 5",
+  "pokemon": [
+      {
+          "name": "Arceus",
+          "item": "Leftovers",
+          "ability": "Multitype",
+          "evs": {
+              "hp": 252,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 0
+          },
+          "moves": [
+              "Swords Dance",
+              "Extreme Speed",
+              "Earthquake",
+              "Shadow Claw"
+          ],
+          "ivSpread": "31/31/31/31/31/31"
+      },
+      {
+          "name": "Giratina",
+          "item": "Leftovers",
+          "ability": "Pressure",
+          "evs": {
+              "hp": 252,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 4
+          },
+          "moves": [
+              "Rest",
+              "Sleep Talk",
+              "Will-O-Wisp",
+              "Dragon Tail"
+          ]
+      },
+      {
+        "name": "Kyogre",
+        "item": "Choice Scarf",
+        "ability": "Drizzle",
+        "evs": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "spa": 252,
+            "spd": 4,
+            "spe": 252
+        },
+        "moves": [
+            "Water Spout",
+            "Surf",
+            "Thunder",
+            "Ice Beam"
+        ]
+    },
+    {
+      "name": "Groudon",
+      "item": "Leftovers",
+      "ability": "Drought",
+      "evs": {
+          "hp": 252,
+          "atk": 252,
+          "def": 4,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+      },
+      "moves": [
+          "Earthquake",
+          "Stone Edge",
+          "Stealth Rock",
+          "Dragon Tail"
+      ]
+  },
+  {
+    "name": "Darkrai",
+    "item": "Focus Sash",
+    "ability": "Bad Dreams",
+    "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+    },
+    "moves": [
+        "Dark Void",
+        "Dark Pulse",
+        "Nasty Plot",
+        "Focus Blast"
+    ]
+  },
+  {
+    "name": "Mewtwo",
+    "item": "Life Orb",
+    "ability": "Pressure",
+    "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+    },
+    "moves": [
+        "Psystrike",
+        "Ice Beam",
+        "Aura Sphere",
+        "Fire Blast"
+    ]
+  }
+]
+}
