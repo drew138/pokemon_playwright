@@ -1,4 +1,4 @@
-import { Page, Locator } from '@playwright/test';
+import { Page, Locator } from "@playwright/test";
 
 export class HomePage {
   readonly page: Page;
@@ -6,15 +6,16 @@ export class HomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.teamBuilderButton = page.getByRole('button', { name: 'teambuilder' });
+    this.teamBuilderButton = page.getByRole("button", { name: "teambuilder" });
   }
 
   async navigate() {
-    await this.page.goto('https://play.pokemonshowdown.com/');
+    await this.page.goto("https://play.pokemonshowdown.com/");
+    await this.page.waitForLoadState("domcontentloaded");
   }
 
   async goToTeamBuilder() {
     await this.teamBuilderButton.click();
+    await this.page.waitForURL("**/teambuilder");
   }
 }
-
